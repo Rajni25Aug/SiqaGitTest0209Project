@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SiqaGitTest0209Project
+  gitServerName: kusiawsint1vc
+  gitUrl: https://github.com/Rajni25Aug
+  gitUsername: Rajni25Aug
+  gitBranch: main
