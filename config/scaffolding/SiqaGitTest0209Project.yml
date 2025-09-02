@@ -16,3 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2070
+- serviceName: project.siqagittest0209.integrations:debugtest
+  packages:
+  - name: SiqaGitTest0209Project
+    version: "1.0"
