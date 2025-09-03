@@ -8,14 +8,31 @@ packages:
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: JMSTest
+  version: "1.0"
   gitServerName: SIQAPsurGit
   gitUrl: https://github.com/prabhakarsag
   gitUsername: prabhakarsag
   gitBranch: main
 services:
+- serviceName: project.siqagittest0209.integrations:JMSFlowTest
+  packages:
+  - name: SiqaGitTest0209Project
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+- serviceName: publisher:publisher
+  packages:
+  - name: JMSTest
+    version: "1.0"
+- serviceName: pub.jms:send
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
 - serviceName: project.siqagittest0209.integrations:debugtest
   packages:
   - name: SiqaGitTest0209Project
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
 - serviceName: pub.flow:debugLog
   packages:
