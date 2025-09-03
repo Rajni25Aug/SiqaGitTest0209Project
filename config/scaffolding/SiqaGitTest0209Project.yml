@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+- name: JMSTest
+  gitServerName: SIQAPsurGit
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: prabhakarsag
+  gitBranch: main
 services:
 - serviceName: project.siqagittest0209.integrations:debugtest
   packages:
